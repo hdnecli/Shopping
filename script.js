@@ -21,7 +21,7 @@ function updateCart() {
         cartItem.innerHTML = `
             <h3>${product.name}</h3>
             <p>${product.price} $</p>
-            <button class="remove-from-cart">Empty Basket</button>
+            <button class="remove-from-cart">Remove Item</button>
         `;
 
         cartItemsContainer.appendChild(cartItem);
